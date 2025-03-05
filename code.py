@@ -1,6 +1,6 @@
 # from google import genai
 
-# client = genai.Client(api_key="AIzaSyCZhmMhR9jZglN8UZ0eZmzzv7IzpHrrFmc")
+# client = genai.Client(api_key="AkhilIzaSyCZhmMhR9jZglN8UZ0eZmzzv7IzpHrrFmc")
 # response = client.models.generate_content(
 #     model="gemini-2.0-flash", contents="Explain how AI works in 10 words"
 # )
@@ -26,7 +26,7 @@
 
 # # Step 2: Use GenAI to summarize content
 # def summarize_text(text):
-#     client = genai.Client(api_key="AIzaSyCZhmMhR9jZglN8UZ0eZmzzv7IzpHrrFmc")
+#     client = genai.Client(api_key="AkhilIzaSyCZhmMhR9jZglN8UZ0eZmzzv7IzpHrrFmc")
 #     prompt = f"Summarize the following text concisely:\n{text}"
 #     response = client.models.generate_content(model="gemini-2.0-flash", contents=prompt)
 #     return response.text
@@ -146,7 +146,7 @@ from reportlab.lib import colors
 from google import genai
 
 # 🔑 Read API Key from Environment Variable
-api_key = 'AIzaSyCZhmMhR9jZglN8UZ0eZmzzv7IzpHrrFmc'
+api_key = 'AkhilIzaSyCZhmMhR9jZglN8UZ0eZmzzv7IzpHrrFmc'
 if not api_key:
     raise ValueError("Google GenAI API key not found. Please set the GENAI_API_KEY environment variable.")
 client = genai.Client(api_key=api_key)
